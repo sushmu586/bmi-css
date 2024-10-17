@@ -1,0 +1,64 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #7ec729;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.container {
+    background-color: #0dd7d4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+ 
+h1 {
+    margin-bottom: 20px;
+}
+ 
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+ 
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+ 
+button {
+    background-color: #1479e6a9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
+ 
+#result {
+    margin-top: 20px;
+}
+ 
+#bmiValue {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+#bmiCategory {
+    font-size: 18px;
+    color: #000000;
+}
+
+
